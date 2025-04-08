@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Awesome Test</title>
+    <!-- Font Awesome CDN (Latest Version) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        .icon-test {
+            margin: 20px;
+            font-size: 30px;
+        }
+        .social-icons a {
+            margin: 0 15px;
+            color: #333;
+            font-size: 24px;
+            transition: color 0.3s;
+        }
+        .social-icons a:hover {
+            color: #007bff; /* Blue hover effect */
+        }
+    </style>
+</head>
+<body>
+    <h1>Font Awesome Test Page</h1>
+    <p>If icons appear below, the CDN is working!</p>
+
+    <!-- Test Icons -->
+    <div class="icon-test">
+        <i class="fas fa-check-circle" style="color: green;"></i> Regular Icon (fas) <br>
+        <i class="far fa-check-circle" style="color: blue;"></i> Outline Icon (far) <br>
+        <i class="fab fa-font-awesome" style="color: #528dd7;"></i> Brand Icon (fab) <br>
+    </div>
+
+    <!-- Social Media Icons (Your Example) -->
+    <h3>Social Media Icons</h3>
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+    </div>
+
+    <!-- Troubleshooting Tips -->
+    <div style="margin-top: 50px; background: #f8f9fa; padding: 20px; border-radius: 5px;">
+        <h3>If Icons Don't Appear:</h3>
+        <ul style="text-align: left; max-width: 600px; margin: 0 auto;">
+            <li><strong>Check your internet connection</strong> (the CDN requires internet access).</li>
+            <li><strong>Open the CDN link</strong> in your browser: <a href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" target="_blank">https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css</a>. If it loads CSS, the CDN is active.</li>
+            <li><strong>Disable ad-blockers/extensions</strong> (they sometimes block CDN requests).</li>
+            <li><strong>Try another browser</strong> (e.g., Chrome, Firefox).</li>
+        </ul>
+    </div>
+</body>
+</html>
